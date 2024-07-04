@@ -6,3 +6,6 @@ logger = configure_logger(__name__)
 class BaseAgent:
     def __init__(self):
         self.agent_name = "base-agent"
+    
+    def generate(self, history, synthesize=False, meta_info = None):
+        pass
